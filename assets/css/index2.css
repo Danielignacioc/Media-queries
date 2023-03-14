@@ -1,0 +1,86 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width: 576px)
+{
+   
+    nav 
+    {   
+        grid-area: navbar;
+        display: grid;
+        background-color: aquamarine;
+        border:solid 5px black
+
+    }
+
+
+    nav form
+    {
+        grid-area: busqueda;
+      display: flex;
+      flex-direction: row;  
+      background-color: aliceblue;
+      border: solid 5px darkblue};
+    }
+
+
+    .medio-container
+    {
+        grid-area: sidebar;
+        display: grid;
+        background-color: brown;
+        border: solid 5px green;
+
+    }
+
+
+    ul
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    section
+    {
+       grid-area: productos;
+
+
+    }
+
+
+    footer
+    {
+        grid-area: footer;
+
+    }
+
+    .item
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: bold impact;
+
+    }
+
+    .item img
+    {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+
+
+    }
+
+
+
+
